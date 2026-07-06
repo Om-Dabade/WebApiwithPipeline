@@ -1,0 +1,6 @@
+@CoreApiWithJenkins_HostAddress = http://localhost:5189
+
+GET {{CoreApiWithJenkins_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
